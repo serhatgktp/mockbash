@@ -5,25 +5,25 @@ Run JShell.java to get started!
 
 List of available commands:
 
--rm
--exit
--mkdir
--cd
--ls
--pwd
--mv
--cp
--cat
--curl
--echo
--man
--pushd
--popd
--history
--saveJShell
--loadJShell
--search
--tree
+- rm
+- exit
+- mkdir
+- cd
+- ls
+- pwd
+- mv
+- cp
+- cat
+- curl
+- echo
+- man
+- pushd
+- popd
+- history
+- saveJShell
+- loadJShell
+- search
+- tree
 
 You may use the 'man' command to get information about how to use other commands
 
