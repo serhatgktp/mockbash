@@ -1,8 +1,7 @@
 # mockbash
+A bash-replica shell!
 
-Please open and run JShell.java in order to start using the commands.
-
-You may provide your input through your shell.
+Run JShell.java to get started!
 
 List of available commands:
 
@@ -26,8 +25,8 @@ List of available commands:
 -search
 -tree
 
-Please use the 'man' command to get information about how to use other commands
+You may use the 'man' command to get information about how to use other commands
 
 e.g. /> man mkdir
 
-Note: In order to test most commands properly, you may want to create several folders and files to populate your directory
+Note: The shell is quite comprehensive, and will maintain an entire filesystem in the host machine's memory for the duration the program is running.
