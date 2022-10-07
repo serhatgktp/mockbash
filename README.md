@@ -1,10 +1,12 @@
 # mockbash
-A bash-replica shell!
+A shell implemented from scratch in Java that is meant to mimic bash.
+This program maintains its own virtual file system in memory and is decoupled from the file system of the host machine, with the exception of commands `saveJShell` and `loadJShell`, which allows the user to export and import JShell sessions.
 
-Run JShell.java to get started!
+Run `JShell.java` to get started
 
 List of available commands:
 
+```
 - rm
 - exit
 - mkdir
@@ -24,9 +26,8 @@ List of available commands:
 - loadJShell
 - search
 - tree
+```
 
-You may use the 'man' command to get information about how to use other commands
+You may use the 'man' command to get information about how to use each command
 
-e.g. /> man mkdir
-
-Note: The shell is quite comprehensive, and will maintain an entire filesystem in the host machine's memory for the duration the program is running.
+e.g. `/> man mkdir`
